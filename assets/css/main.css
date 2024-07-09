@@ -94,6 +94,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  color: black;
 }
 
 article,
@@ -2231,6 +2232,7 @@ input[type='radio'] + label:before {
 
 .image.avatar {
   border-radius: 100%;
+  margin-right: 1em;
 }
 
 .image.avatar:before {
@@ -2239,7 +2241,12 @@ input[type='radio'] + label:before {
 
 .image.avatar img {
   border-radius: 100%;
-  width: 100%;
+  width: 110px;
+}
+
+#header .image.avatar {
+  margin: 0 0 1em 0;
+  width: 6.25em;
 }
 
 /* List */
@@ -2690,9 +2697,9 @@ input[type='button']:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  background-color: #2f4f4f;
   background-attachment: scroll, scroll;
-  background-image: url('images/overlay.png'), url('../../images/bg.jpg');
+  /* background-image: url('images/overlay.png'), url('../../images/bg.jpg'); */
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
@@ -2740,11 +2747,6 @@ input[type='button']:disabled,
   font-size: 1.35em;
   line-height: 1.75em;
   margin: 0;
-}
-
-#header .image.avatar {
-  margin: 0 0 1em 0;
-  width: 6.25em;
 }
 
 /* Footer */
@@ -3335,4 +3337,8 @@ body.is-touch .poptrox-popup .closer {
 .slack {
   height: 70px;
   width: 70px;
+}
+
+.major {
+  color: black;
 }

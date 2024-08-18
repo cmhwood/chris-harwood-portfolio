@@ -1,2 +1,2 @@
 # cmhwood.github.io
-My current portfolio website, including recent projects.
+My current portfolio website, including recent projects
